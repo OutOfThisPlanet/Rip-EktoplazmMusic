@@ -265,7 +265,7 @@ Function Rip-EktoplazmMusic
 
                     else
                     {
-                        Write-Host "Download is fucked!" @RedText
+                        Write-Host "Download is corrupted!" @RedText
                         continue;
                     }
                 }
@@ -281,4 +281,4 @@ Function Rip-EktoplazmMusic
 }
 
 #Uncomment the line below to run the function
-#Rip-EktoplazmMusic -OutputPath "C:\Temp" -AudioFormat "MP3" -Mode "Labels" -TestDownload:$true
+#Rip-EktoplazmMusic -OutputPath "C:\Temp" -AudioFormat "MP3" -Mode "Labels" -TestDownload:$false
