@@ -5,7 +5,7 @@ Requires PowerShell 5, or later
 
 Choose MP3, WAV, or FLAC downloads (all files seem to come in an archive)
 Choose the scope of what to Download: DJs, Producers, Labels, or ALL THE THINGS!!
-If you have 7zip installed, you can even check the downloads completed successfully. 
+If you have 7zip installed, you can even check if each download has completed successfully. 
 
 Load the function, and run it with:
 
