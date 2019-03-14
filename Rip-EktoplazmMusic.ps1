@@ -280,4 +280,5 @@ Function Rip-EktoplazmMusic
 
 }
 
-Rip-EktoplazmMusic #-OutputPath "C:\Temp" #-AudioFormat "MP3" -Mode "Labels" -TestDownload:$true
+#Uncomment the line below to run the function
+#Rip-EktoplazmMusic -OutputPath "C:\Temp" -AudioFormat "MP3" -Mode "Labels" -TestDownload:$true
