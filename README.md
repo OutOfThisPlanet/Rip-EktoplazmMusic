@@ -1,7 +1,7 @@
 # Rip-EktoplazmMusic
 This is a PowerShell function for the automated asynchronous download of free music available on the Ektoplazm site. 
 
-Required PowerShell 5, or later
+Requires PowerShell 5, or later
 
 Choose MP3, WAV, or FLAC downloads (all files seem to come in an archive)
 Choose the scope of what to Download: DJs, Producers, Labels, or ALL THE THINGS!!
