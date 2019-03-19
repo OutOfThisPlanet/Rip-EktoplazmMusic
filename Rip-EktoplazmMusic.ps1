@@ -65,11 +65,11 @@ Function Rip-EktoplazmMusic
 
         $AudioFormat = Read-Host "Which Audio Format do you want?"
 
-	    Switch ($AudioFormat)
-	    {
-		    1 {$AudioChoice = "MP3"}
-		    2 {$AudioChoice = "WAV"}
-		    3 {$AudioChoice = "FLAC"}
+	Switch ($AudioFormat)
+	{
+	    1 {$AudioChoice = "MP3"}
+	    2 {$AudioChoice = "WAV"}
+	    3 {$AudioChoice = "FLAC"}
         }
         $AudioFormat = $AudioChoice
         if (!$AudioFormat)
@@ -93,11 +93,11 @@ Function Rip-EktoplazmMusic
         Write-Host "Select number from 1 - 4" @RedText
          
         $Scope = Read-Host "Please enter choice number"
-	    Switch ($Scope)
-	    {
-		    1 {$ScopeChoice = "DJs"}
-		    2 {$ScopeChoice = "Producers"}
-		    3 {$ScopeChoice = "Labels"}
+        Switch ($Scope)
+        {
+	    1 {$ScopeChoice = "DJs"}
+	    2 {$ScopeChoice = "Producers"}
+	    3 {$ScopeChoice = "Labels"}
             4 {$ScopeChoice = "Leech"}
         }
         $Scope = $ScopeChoice
